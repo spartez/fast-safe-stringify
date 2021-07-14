@@ -57,7 +57,7 @@ function decirc (val, k, stack, parent) {
         decirc(val[i], i, stack, val)
       }
     } else {
-      var keys = Object.keys(val)
+      var keys = Object.getOwnPropertyNames(val)
       for (i = 0; i < keys.length; i++) {
         var key = keys[i]
         decirc(val[key], key, stack, val)
@@ -139,7 +139,7 @@ function deterministicDecirc (val, k, stack, parent) {
     } else {
       // Create a temporary object in the required way
       var tmp = {}
-      var keys = Object.keys(val).sort(compareFunction)
+      var keys = Object.getOwnPropertyNames(val).sort(compareFunction)
       for (i = 0; i < keys.length; i++) {
         var key = keys[i]
         deterministicDecirc(val[key], key, stack, val)

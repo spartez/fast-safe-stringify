@@ -1,6 +1,6 @@
 {
-  "name": "fast-safe-stringify",
-  "version": "2.0.8",
+  "name": "@spartez-software/fast-safe-stringify",
+  "version": "2.0.9",
   "description": "Safely and quickly serialize JavaScript objects",
   "keywords": [
     "stable",
@@ -23,7 +23,8 @@
     "Gabriel Lesperance",
     "Alex Liu",
     "Christoph Walcher",
-    "Nicholas Young"
+    "Nicholas Young",
+    "Szymon Walkowski"
   ],
   "license": "MIT",
   "typings": "index",
@@ -36,11 +37,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidmarkclements/fast-safe-stringify.git"
+    "url": "git+https://github.com/spartez/fast-safe-stringify.git"
   },
   "bugs": {
-    "url": "https://github.com/davidmarkclements/fast-safe-stringify/issues"
+    "url": "https://github.com/spartez/fast-safe-stringify/issues"
   },
-  "homepage": "https://github.com/davidmarkclements/fast-safe-stringify#readme",
+  "homepage": "https://github.com/spartez/fast-safe-stringify#readme",
   "dependencies": {}
 }
